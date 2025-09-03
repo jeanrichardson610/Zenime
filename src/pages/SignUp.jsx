@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router';
 import Reel from "../assets/zen_logo.svg";
+import SigninImage from "../Signin_Image.jpg";
 
 const SignUp = () => {
   const navigate = useNavigate()
@@ -12,7 +13,7 @@ const SignUp = () => {
 
   return (
     <div className="min-h-screen bg-black/50 bg-blend-overlay bg-cover bg-center px-4 md:px-8 py-5" 
-         style={{ backgroundImage: "url('/Signin_Image.jpg')" }}>
+         style={{ backgroundImage: `url(${SigninImage})` }}>
       {/* Optional content goes here */}
       <div className="max-w-[450px] w-full bg-black bg-opacity-75 rounded-2xl px-8 py-10 mx-auto mt-8">
         <figure>
