@@ -1,12 +1,20 @@
-# React + Vite
+Zenime: Anime & Manga Streaming Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Zenime is a modern anime and manga streaming platform built with React, Vite, and Tailwind CSS. It offers a seamless and responsive user experience, optimized for both desktop and mobile devices.
 
-Currently, two official plugins are available:
+Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User Authentication: Secure sign-in and sign-up functionality to personalize user experience (you won't go anywhere but it shows functionality.
 
-## Expanding the ESLint configuration
+Responsive Design: Fully responsive layout ensuring optimal viewing on all devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dynamic Routing: Utilizes React Router for smooth navigation between pages.
+
+Custom Backgrounds: Personalized backgrounds for different pages, enhancing visual appeal.
+
+Modern UI Components: Interactive form elements and buttons with hover and focus effects for better user engagement.
+
+Recommendations: Based on the anime you pick in the categories, you will be brought to the Animepage where you can see information and below recommendations. Click those to see more recommendations and new pages
+
+Explore the live application here: [Zenime](https://jeanrichardson610.github.io/Zenime/)
+
