@@ -22,9 +22,9 @@ const SignUp = () => {
         <h1 className="text-3xl font-medium text-white mb-7">Sign Up</h1>
 
         <form className="flex flex-col space-y-4">
-            <input type="text" value={username}  onChange={(e) => setUsername(e.target.value)} placeholder="Enter name here" className="w-full h-[50px] bg-[#333] text-white rounded px-5 text-base"/>
-            <input type="email" value={email}  onChange={(e) => setEmail(e.target.value)}  placeholder="Enter your email" className="w-full h-[50px] bg-[#333] text-white rounded px-5 text-base" /> 
-            <input type="password" value={password}  onChange={(e) => setPassword(e.target.value)}  placeholder="Enter your password" className="w-full h-[50px] bg-[#333] text-white rounded px-5 text-base" /> 
+            <input type="text" value={username}  onChange={(e) => setUsername(e.target.value)} placeholder="Enter name here" className="w-full h-[50px] bg-[#333] text-white rounded px-5 text-base hover:bg-[#4e4e4e]"/>
+            <input type="email" value={email}  onChange={(e) => setEmail(e.target.value)}  placeholder="Enter your email" className="w-full h-[50px] bg-[#333] text-white rounded px-5 text-base hover:bg-[#4e4e4e]" /> 
+            <input type="password" value={password}  onChange={(e) => setPassword(e.target.value)}  placeholder="Enter your password" className="w-full h-[50px] bg-[#333] text-white rounded px-5 text-base hover:bg-[#4e4e4e]" /> 
 
             <button type="submit" className="w-full bg-[#00e5ff] text-black py-2 rounded text-base hover:opacity-100 hover:shadow-[0_0_6px_white] hover:scale-105 cursor-pointer transition-all">
                 Sign Up
