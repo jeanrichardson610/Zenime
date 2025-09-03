@@ -42,7 +42,7 @@ const Navbar = () => {
 
         {/* AI Anime Picks button links to High School DxD */}
         <Link to="/anime/11617">
-          <button className="bg-[#00e5ff] px-5 py-2 text-black cursor-pointer rounded-full hover:bg-[#ff007f] hover:text-white transition-colors duration-500 ease-in-out">
+          <button className="bg-[#00e5ff] hidden sm:block px-5 py-2 text-black cursor-pointer rounded-full hover:bg-[#ff007f] hover:text-white transition-colors duration-500 ease-in-out">
             AI Anime Picks
           </button>
         </Link>
