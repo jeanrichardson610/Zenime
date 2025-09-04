@@ -1,3 +1,5 @@
+NOTE: most anime DO NOT have high quality horizontal images for my horizontal hero image. That is why the hero images will be blurry while the vertical images are higher quality
+
 Zenime: Anime & Manga Streaming Platform
 
 Zenime is a modern anime and manga streaming platform built with React, Vite, and Tailwind CSS. It offers a seamless and responsive user experience, optimized for both desktop and mobile devices.
